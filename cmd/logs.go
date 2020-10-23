@@ -14,7 +14,7 @@ import (
 const (
 	timeFormat          = "2006-01-02 15:04:05"
 	timeFormatWithZone  = "2006-01-02 15:04:05 MST"
-	logStreamNameFormat = "fargate/%s/%s"
+	logStreamNameFormat = "ecs/%s/%s"
 	eventCacheSize      = 10000
 )
 
